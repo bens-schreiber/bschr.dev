@@ -1,13 +1,22 @@
-window.onload = function () {
-  Module["canvas"] = document.getElementById("canv");
+var Module = Module || {}; // Preserve the existing Module object
 
-  // Prevent right clicks from opening the context menu
+Module.onRuntimeInitialized = function () {
+  console.log("Emscripten module initialized");
+
+  var canvasElement = document.getElementById("canvas");
+  if (!canvasElement) {
+    console.error("Canvas element not found!");
+    return;
+  }
+
+  Module.canvas = canvasElement;
+
   Module.canvas.addEventListener("contextmenu", function (event) {
     event.preventDefault();
     event.stopPropagation();
   });
 
-  canvas.addEventListener("click", function (event) {
+  Module.canvas.addEventListener("click", function (event) {
     event.preventDefault();
     event.stopPropagation();
   });
