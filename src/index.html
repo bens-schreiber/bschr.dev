@@ -9,10 +9,9 @@
     <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
   </head>
 
-  <body>
-    
+  <body class="mx-3 md:mx-12">
     <!-- Nav bar -->
-    <nav class="mt-6 mx-8">
+    <nav class="mt-6">
       <ul
         class="flex gap-x-7 justify-center md:justify-end font-medium bg-background text-xl"
       >
@@ -24,17 +23,18 @@
           >
         </li>
         <li><a href="#">Home</a></li>
-        <li><a href="#resume">Resume</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="/resume.pdf">Resume</a></li>
       </ul>
     </nav>
 
     <!-- "Logo" -->
     <div class="flex justify-center space-x-3 mt-12 md:mt-16">
       <h1 class="font-bold text-5xl md:text-9xl">
-        <span class="text-dark">bschr<span class="text-primary">:/resume$</span></span>_
+        <span class="text-dark"
+          >bschr<span class="text-primary">:/resume$</span></span
+        >_
       </h1>
-      </svg>
     </div>
 
     <!-- Socials -->
@@ -89,13 +89,11 @@
     </footer>
 
     <!-- Resume -->
-    <article id="resume" class="article mt-16 md:mt-32 relative">
-
+    <article class="article mt-16 md:mt-32 relative">
       <div>
         <h2 class="article-title">EDUCATION</h2>
         <hr class="color-dark" />
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mx-3 mt-12">
-
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
           <div class="card">
             <img
               src="assets/wsu.svg"
@@ -104,16 +102,16 @@
             />
             <ul>
               <li class="font-bold">Washington State University</li>
-              <li class="font-medium">Bachelor of Science in Computer Science</li>
+              <li class="font-medium">
+                Bachelor of Science in Computer Science
+              </li>
               <li class="font-medium">Minor in Mathematics</li>
               <li>08/2022 - 05/2026</li>
             </ul>
           </div>
 
           <div class="card">
-            <h3 class=" font-bold mt-5">
-              Relevant Computer Science Coursework
-            </h3>
+            <h3 class="font-bold mt-5">Relevant Computer Science Coursework</h3>
             <ul class="font-medium list-disc ml-5">
               <li>Data Structures and Algorithms</li>
               <li>Software Engineering</li>
@@ -124,11 +122,9 @@
           </div>
 
           <div class="card">
-            <h3 class=" font-bold mt-5">
-              Relevant Mathematics Coursework
-            </h3>
+            <h3 class="font-bold mt-5">Relevant Mathematics Coursework</h3>
             <ul class="font-medium list-disc ml-5">
-              <li>Calculus I - III </li>
+              <li>Calculus I - III</li>
               <li>Linear Algebra</li>
               <li>Discrete Mathematics</li>
               <li>Probability and Statistics</li>
@@ -136,14 +132,13 @@
               <li>Graph Theory</li>
             </ul>
           </div>
-
+        </div>
       </div>
 
       <div class="mt-12">
         <h2 class="article-title">SKILLS</h2>
         <hr class="color-dark" />
-        <div class="grid grid-cols-1 md:grid-cols-5 gap-8 mx-3 mt-12">
-
+        <div class="grid grid-cols-1 md:grid-cols-5 gap-8 mt-12">
           <div class="card">
             <span
               class="iconify mx-auto"
@@ -199,6 +194,7 @@
             <ul class="skill-items">
               <li>SQL Server</li>
               <li>PostgreSQL</li>
+            </ul>
           </div>
 
           <div class="card">
@@ -215,15 +211,13 @@
               <li>Blob Storage</li>
             </ul>
           </div>
-          
         </div>
       </div>
 
       <div class="mt-12">
         <h2 class="article-title">EXPERIENCE</h2>
         <hr />
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mx-3 mt-12">
-
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-12">
           <div class="card">
             <img
               src="assets/intellitect.svg"
@@ -238,34 +232,54 @@
 
             <h3 class="mt-5">
               <span class="font-bold"> Audience Interactive Systems </span>
-              (<a class="underline text-blue-600" target="#blank" href="https://ais.team/">https://ais.team/</a>)
-              
+              (<a
+                class="underline text-blue-600"
+                target="#blank"
+                href="https://ais.team/"
+                >https://ais.team/</a
+              >)
             </h3>
             <ul class="font-medium list-disc ml-5 space-y-2">
               <li>
-                Engineered a dynamic real-time word cloud, achieving seamless interaction for thousands of concurrent users.
+                Engineered a dynamic real-time word cloud, achieving seamless
+                interaction for thousands of concurrent users.
               </li>
               <li>
-                Developed a concurrent voting system to synchronize end devices in real-time, utilizing concurrent queues in a repository pattern, enhancing user engagement and participation. 
+                Developed a concurrent voting system to synchronize end devices
+                in real-time, utilizing concurrent queues in a repository
+                pattern, enhancing user engagement and participation.
               </li>
               <li>
-                Implemented an algorithm for proportional word sizing in constant time, optimizing display efficiency and user experience in data visualization.
+                Implemented an algorithm for proportional word sizing in
+                constant time, optimizing display efficiency and user experience
+                in data visualization.
               </li>
             </ul>
 
             <h3 class="mt-5">
-              <span class="font-bold ">Pesticide Information Center OnLine</span>
-              (<a class="underline text-blue-600" target="#blank" href="https://picol.cahnrs.wsu.edu/">https://picol.cahnrs.wsu.edu/</a>)
+              <span class="font-bold">Pesticide Information Center OnLine</span>
+              (<a
+                class="underline text-blue-600"
+                target="#blank"
+                href="https://picol.cahnrs.wsu.edu/"
+                >https://picol.cahnrs.wsu.edu/</a
+              >)
             </h3>
             <ul class="font-medium list-disc ml-5 space-y-2">
               <li>
-                Recreated a decade-old SQL Server database, enhancing data integrity and access speed and removing redundancies, significantly improving query performance.
+                Recreated a decade-old SQL Server database, enhancing data
+                integrity and access speed and removing redundancies,
+                significantly improving query performance.
               </li>
               <li>
-                Modernized an outdated ASP.NET implementation, eliminating antipatterns and deprecated techniques, which increased system reliability.
+                Modernized an outdated ASP.NET implementation, eliminating
+                antipatterns and deprecated techniques, which increased system
+                reliability.
               </li>
               <li>
-                Reengineered front end to mirror a contemporary search engine, implementing search query indexing with Lucene.NET, boosting user engagement and search efficiency
+                Reengineered front end to mirror a contemporary search engine,
+                implementing search query indexing with Lucene.NET, boosting
+                user engagement and search efficiency
               </li>
             </ul>
           </div>
@@ -282,33 +296,48 @@
               <li>06/2022 - 10/2023</li>
             </ul>
 
-            <h3 class="mt-5"><span class="font-bold">1ON1 Piano</span> (<a class="underline text-blue-600" target="#blank" href="https://1on1piano.com/">https://1on1piano.com/</a>)</h3>
+            <h3 class="mt-5">
+              <span class="font-bold">1ON1 Piano</span> (<a
+                class="underline text-blue-600"
+                target="#blank"
+                href="https://1on1piano.com/"
+                >https://1on1piano.com/</a
+              >)
+            </h3>
             <ul class="font-medium list-disc ml-5 space-y-2">
               <li>
-                Recreated and upgraded a Flutter mobile app to facilitate piano lessons via a WebRTC MIDI channel, eliminating ongoing issues and significantly improving the developer environment.
+                Recreated and upgraded a Flutter mobile app to facilitate piano
+                lessons via a WebRTC MIDI channel, eliminating ongoing issues
+                and significantly improving the developer environment.
               </li>
               <li>
-                Addressed WebRTC layer issues, reducing network related dropped calls by over 80%.             
+                Addressed WebRTC layer issues, reducing network related dropped
+                calls by over 80%.
               </li>
               <li>
-                Implemented a full stack user “File Sharing Library” with Azure Blob Storage, alongside a SignalR channel for real-time app updates, allowing teachers to share sheet music to students.
+                Implemented a full stack user “File Sharing Library” with Azure
+                Blob Storage, alongside a SignalR channel for real-time app
+                updates, allowing teachers to share sheet music to students.
               </li>
               <li>
-                Researched and integrated cutting-edge libraries Riverpod and GoRouter to modernize codebase and replace deprecated GetX stack.
+                Researched and integrated cutting-edge libraries Riverpod and
+                GoRouter to modernize codebase and replace deprecated GetX
+                stack.
               </li>
               <li>
-                Attended biweekly standups and sprint planning meetings, contributing to the team’s agile development process, as well as leading project in client meetings.
+                Attended biweekly standups and sprint planning meetings,
+                contributing to the team’s agile development process, as well as
+                leading project in client meetings.
               </li>
             </ul>
           </div>
-
         </div>
       </div>
 
       <div class="mt-12">
         <h2 class="article-title">ACCOLADES</h2>
         <hr />
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-12 mx-3">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-12">
           <div class="card">
             <img src="assets/fbla.png" alt="FBLA Logo" class="mx-auto h-64" />
             <h3 class="font-medium">Future Business Leaders of America</h3>
@@ -331,7 +360,6 @@
               <!-- Rush Triangle! -->
             </ul>
           </div>
-
         </div>
       </div>
     </article>
@@ -351,8 +379,7 @@
       <div>
         <h2 class="article-title">VIRTUAL PACKET TRACER</h2>
         <hr />
-        <div class="grid grid-cols-1 md:grid-cols-5 gap-4 mt-12 mx-3">
-
+        <div class="grid grid-cols-1 md:grid-cols-5 gap-4 mt-12">
           <div class="card md:col-span-3">
             <h3 class="font-bold">About VPT</h3>
             <p class="font-medium">
@@ -421,9 +448,11 @@
               data-inline="false"
               style="font-size: 7rem"
             ></span>
-            <h3 class="skill-header mt-5 underline"><a href="vpt.html">Live WASM Demo</a></h3>
+            <h3 class="skill-header mt-5 underline">
+              <a href="vpt.html">Live WASM Demo</a>
+            </h3>
           </div>
-          
+
           <div class="card">
             <a
               href="https://github.com/bens-schreiber/virtual-packet-tracer"
@@ -453,8 +482,7 @@
       <div>
         <h2 class="article-title">THE PUSHAPP</h2>
         <hr />
-        <div class="grid grid-cols-1 md:grid-cols-5 gap-4 mt-12 mx-3">
-
+        <div class="grid grid-cols-1 md:grid-cols-5 gap-4 mt-12">
           <div class="card md:col-span-3">
             <h3 class="font-bold">About PushApp</h3>
             <p class="font-medium">
@@ -552,15 +580,13 @@
               <h3 class="skill-header mt-5 underline">View on GitHub</h3>
             </a>
           </div>
-
         </div>
       </div>
 
       <div>
         <h2 class="article-title">GRAPH THEORIST SKETCHPAD</h2>
         <hr />
-        <div class="grid grid-cols-1 md:grid-cols-5 gap-4 mt-12 mx-3">
-
+        <div class="grid grid-cols-1 md:grid-cols-5 gap-4 mt-12">
           <div class="card md:col-span-3">
             <h3 class="font-bold">About Graph Theorist Sketchpad</h3>
             <p class="font-medium">
@@ -641,7 +667,6 @@
               <h3 class="skill-header mt-5 underline">View on GitHub</h3>
             </a>
           </div>
-          
         </div>
       </div>
 
