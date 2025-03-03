@@ -10,6 +10,7 @@
   </head>
 
   <body>
+    
     <!-- Nav bar -->
     <nav class="mt-6 mx-8">
       <ul
@@ -413,12 +414,14 @@
           </div>
 
           <div class="card">
-            <img
-              src="assets/raylib.png"
-              alt="Raylib Logo"
-              class="mx-auto h-28"
-            />
-            <h3 class="skill-header mt-5 underline"><a href="vpt.html">Created With Raylib</a></h3>
+            <!-- play btn -->
+            <span
+              class="iconify mx-auto"
+              data-icon="akar-icons:play"
+              data-inline="false"
+              style="font-size: 7rem"
+            ></span>
+            <h3 class="skill-header mt-5 underline"><a href="vpt.html">Live WASM Demo</a></h3>
           </div>
           
           <div class="card">
@@ -445,14 +448,6 @@
             Your browser does not support the video tag.
           </video>
         </div>
-      </div>
-
-      <div class="hidden md:block">
-        <h2 class="article-title">VIRTUAL PACKET TRACER LIVE DEMO</h2>
-        <hr />
-        <script src="assets/vpt/virtual-packet-tracer.js"></script>
-        <script src="assets/vpt/load.js" defer></script>
-        <canvas height="500" width="800" id="canvas" class="bg-black m-auto mt-12"></canvas>
       </div>
 
       <div>

@@ -1,13 +1,11 @@
 {
   "name": "bmin-schreib",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "vite build",
     "run": "vite preview",
-    "dev": "vite",
-    "build:css": "tailwindcss build -i public/tailwind.css -o public/styles.css"
+    "dev": "vite"
   },
   "repository": {
     "type": "git",
