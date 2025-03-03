@@ -11,7 +11,7 @@ body {
 }
 
 .article {
-    @apply flex flex-col space-y-32;
+    @apply flex flex-col space-y-28;
 }
 
 .article-title {
@@ -19,7 +19,7 @@ body {
 }
 
 .skill-header {
-   @apply font-bold text-xl text-center
+   @apply font-bold text-xl text-center mt-5
 }
 
 .skill-items {

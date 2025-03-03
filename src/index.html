@@ -9,9 +9,9 @@
     <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
   </head>
 
-  <body class="mx-3 md:mx-12">
+  <body class="flex flex-col gap-10 mx-3 md:mx-12 pt-6">
     <!-- Nav bar -->
-    <nav class="mt-6">
+    <nav>
       <ul
         class="flex gap-x-7 justify-center md:justify-end font-medium bg-background text-xl"
       >
@@ -29,16 +29,16 @@
     </nav>
 
     <!-- "Logo" -->
-    <div class="flex justify-center space-x-3 mt-12 md:mt-16">
+    <header class="flex justify-center space-x-3">
       <h1 class="font-bold text-5xl md:text-9xl">
         <span class="text-dark"
           >bschr<span class="text-primary">:/resume$</span></span
         >_
       </h1>
-    </div>
+    </header>
 
     <!-- Socials -->
-    <footer class="my-6 md:my-12">
+    <footer>
       <ul class="flex justify-center space-x-12">
         <li>
           <a
@@ -88,12 +88,14 @@
       </ul>
     </footer>
 
+    <div class="md:h-10"></div>
+
     <!-- Resume -->
-    <article class="article mt-16 md:mt-32 relative">
-      <div>
+    <article class="article relative">
+      <section>
         <h2 class="article-title">EDUCATION</h2>
-        <hr class="color-dark" />
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+        <hr class="mb-10" />
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div class="card">
             <img
               src="assets/wsu.svg"
@@ -111,7 +113,7 @@
           </div>
 
           <div class="card">
-            <h3 class="font-bold mt-5">Relevant Computer Science Coursework</h3>
+            <h3 class="font-bold">Relevant Computer Science Coursework</h3>
             <ul class="font-medium list-disc ml-5">
               <li>Data Structures and Algorithms</li>
               <li>Software Engineering</li>
@@ -122,7 +124,7 @@
           </div>
 
           <div class="card">
-            <h3 class="font-bold mt-5">Relevant Mathematics Coursework</h3>
+            <h3 class="font-bold">Relevant Mathematics Coursework</h3>
             <ul class="font-medium list-disc ml-5">
               <li>Calculus I - III</li>
               <li>Linear Algebra</li>
@@ -133,12 +135,12 @@
             </ul>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div class="mt-12">
+      <section>
         <h2 class="article-title">SKILLS</h2>
-        <hr class="color-dark" />
-        <div class="grid grid-cols-1 md:grid-cols-5 gap-8 mt-12">
+        <hr class="mb-10" />
+        <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
           <div class="card">
             <span
               class="iconify mx-auto"
@@ -212,12 +214,12 @@
             </ul>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div class="mt-12">
+      <section>
         <h2 class="article-title">EXPERIENCE</h2>
-        <hr />
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-12">
+        <hr class="mb-10" />
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div class="card">
             <img
               src="assets/intellitect.svg"
@@ -332,12 +334,12 @@
             </ul>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div class="mt-12">
+      <section>
         <h2 class="article-title">ACCOLADES</h2>
-        <hr />
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-12">
+        <hr class="mb-10" />
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div class="card">
             <img src="assets/fbla.png" alt="FBLA Logo" class="mx-auto h-64" />
             <h3 class="font-medium">Future Business Leaders of America</h3>
@@ -351,9 +353,9 @@
             <img
               src="assets/triangle.png"
               alt="Triangle Logo"
-              class="mx-auto h-52"
+              class="mx-auto h-64"
             />
-            <h3 class="font-medium mt-10">Triangle STEM Fraternity</h3>
+            <h3 class="font-medium">Triangle STEM Fraternity</h3>
             <ul>
               <li>Chapter Founder</li>
               <li>Vice President Internal (01/2023 - 01/2025)</li>
@@ -361,25 +363,27 @@
             </ul>
           </div>
         </div>
-      </div>
+      </section>
     </article>
 
     <!-- "Logo" (again) -->
-    <div id="portfolio" class="text-center text-5xl md:text-9xl">
+    <header id="portfolio" class="text-center text-5xl md:text-9xl">
       <div class="opacity-40">.</div>
       <div class="opacity-65">.</div>
-      <div>.</div>
-      <div class="font-bold mt-5">
+      <div class="mb-10">.</div>
+      <div class="font-bold">
         bschr<span class="text-primary">:/portfolio$</span>_
       </div>
-    </div>
+    </header>
+
+    <div class="md:h-10"></div>
 
     <!-- Portfolio -->
-    <article class="article mt-16 md:mt-32">
-      <div>
+    <article class="article">
+      <section>
         <h2 class="article-title">VIRTUAL PACKET TRACER</h2>
-        <hr />
-        <div class="grid grid-cols-1 md:grid-cols-5 gap-4 mt-12">
+        <hr class="mb-10" />
+        <div class="grid grid-cols-1 md:grid-cols-5 gap-4">
           <div class="card md:col-span-3">
             <h3 class="font-bold">About VPT</h3>
             <p class="font-medium">
@@ -437,7 +441,7 @@
               data-inline="false"
               style="font-size: 7rem"
             ></span>
-            <h3 class="skill-header mt-5">Created in Rust</h3>
+            <h3 class="skill-header">Created in Rust</h3>
           </div>
 
           <div class="card">
@@ -448,7 +452,7 @@
               data-inline="false"
               style="font-size: 7rem"
             ></span>
-            <h3 class="skill-header mt-5 underline">
+            <h3 class="skill-header underline">
               <a href="vpt.html">Live WASM Demo</a>
             </h3>
           </div>
@@ -464,7 +468,7 @@
                 data-inline="false"
                 style="font-size: 7rem"
               ></span>
-              <h3 class="skill-header mt-5 underline">View on GitHub</h3>
+              <h3 class="skill-header underline">View on GitHub</h3>
             </a>
           </div>
 
@@ -477,12 +481,12 @@
             Your browser does not support the video tag.
           </video>
         </div>
-      </div>
+      </section>
 
-      <div>
+      <section>
         <h2 class="article-title">THE PUSHAPP</h2>
-        <hr />
-        <div class="grid grid-cols-1 md:grid-cols-5 gap-4 mt-12">
+        <hr class="mb-10" />
+        <div class="grid grid-cols-1 md:grid-cols-5 gap-4">
           <div class="card md:col-span-3">
             <h3 class="font-bold">About PushApp</h3>
             <p class="font-medium">
@@ -533,7 +537,7 @@
               data-inline="false"
               style="font-size: 7rem"
             ></span>
-            <h3 class="skill-header mt-5">Firebase Cloud Messaging</h3>
+            <h3 class="skill-header">Firebase Cloud Messaging</h3>
           </div>
 
           <div class="card">
@@ -543,7 +547,7 @@
               data-inline="false"
               style="font-size: 7rem"
             ></span>
-            <h3 class="skill-header mt-5">Supabase Backend</h3>
+            <h3 class="skill-header">Supabase Backend</h3>
           </div>
 
           <div class="card">
@@ -553,7 +557,7 @@
               data-inline="false"
               style="font-size: 7rem"
             ></span>
-            <h3 class="skill-header mt-5">Flutter Frontend w/ Riverpod</h3>
+            <h3 class="skill-header">Flutter Frontend w/ Riverpod</h3>
           </div>
 
           <div class="card">
@@ -563,7 +567,7 @@
               data-inline="false"
               style="font-size: 7rem"
             ></span>
-            <h3 class="skill-header mt-5">PostgreSQL Database</h3>
+            <h3 class="skill-header">PostgreSQL Database</h3>
           </div>
 
           <div class="card">
@@ -577,16 +581,16 @@
                 data-inline="false"
                 style="font-size: 7rem"
               ></span>
-              <h3 class="skill-header mt-5 underline">View on GitHub</h3>
+              <h3 class="skill-header underline">View on GitHub</h3>
             </a>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div>
+      <section>
         <h2 class="article-title">GRAPH THEORIST SKETCHPAD</h2>
-        <hr />
-        <div class="grid grid-cols-1 md:grid-cols-5 gap-4 mt-12">
+        <hr class="mb-10" />
+        <div class="grid grid-cols-1 md:grid-cols-5 gap-4">
           <div class="card md:col-span-3">
             <h3 class="font-bold">About Graph Theorist Sketchpad</h3>
             <p class="font-medium">
@@ -641,7 +645,7 @@
               data-inline="false"
               style="font-size: 7rem"
             ></span>
-            <h3 class="skill-header mt-5">Created in C</h3>
+            <h3 class="skill-header">Created in C</h3>
           </div>
 
           <div class="card">
@@ -650,7 +654,7 @@
               alt="Raylib Logo"
               class="mx-auto h-28"
             />
-            <h3 class="skill-header mt-5">Rendered with Raylib</h3>
+            <h3 class="skill-header">Rendered with Raylib</h3>
           </div>
 
           <div class="card">
@@ -664,22 +668,22 @@
                 data-inline="false"
                 style="font-size: 7rem"
               ></span>
-              <h3 class="skill-header mt-5 underline">View on GitHub</h3>
+              <h3 class="skill-header underline">View on GitHub</h3>
             </a>
           </div>
         </div>
-      </div>
+      </section>
 
-      <h2 class="text-3xl text-center font-medium mt-40">
+      <aside class="text-3xl text-center font-medium">
         View over 30 personal project repositories on
         <a href="https://github.com/bens-schreiber/" class="underline"
           >my GitHub</a
         >
-      </h2>
+      </aside>
     </article>
 
     <!-- Socials (again) -->
-    <footer class="my-4 md:my-12">
+    <footer class="pb-10">
       <ul class="flex justify-center space-x-12">
         <li>
           <a
