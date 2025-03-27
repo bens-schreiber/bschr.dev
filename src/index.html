@@ -33,11 +33,10 @@
             <a
               href="https://github.com/bens-schreiber/bmin-schreib"
               target="_blank"
-              >Last updated: <time datetime="2025-03-04">03/04/2025</time></a
             >
+              Last updated: <time datetime="2025-03-26">03/26/2025</time>
+            </a>
           </li>
-          <li><a href="#">Home</a></li>
-          <li><span>|</span></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><span>|</span></li>
           <li><a href="/resume.pdf">Resume</a></li>
@@ -49,8 +48,7 @@
       <div class="text-center font-bold text-[11vw] md:text-[8vw]">
         <h1 class="sr-only">Resume</h1>
         <span class="text-dark">
-          bschr
-          <span class="text-primary">:/resume$</span>
+          bschr<span class="text-primary">:/resume$</span>
         </span>
         _
       </div>
@@ -108,30 +106,28 @@
 
     <div class="my-20"></div>
 
-    <main class="flex flex-col gap-10">
+    <main class="flex flex-col gap-28">
       <section class="article relative">
         <section>
           <h2 class="section-title">EDUCATION</h2>
           <hr class="mb-10" />
           <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="card">
+            <div class="card md:grid grid-cols-3">
               <img
                 src="assets/wsu.svg"
                 alt="Washington State University Logo"
-                class="mx-auto h-28"
+                class="mx-auto h-28 col-span-1"
               />
-              <ul>
+              <ul class="col-span-2">
                 <li class="font-bold">Washington State University</li>
-                <li class="font-medium">
-                  Bachelor of Science in Computer Science
-                </li>
+                <li class="font-medium">B.S. in Computer Science</li>
                 <li class="font-medium">Minor in Mathematics</li>
-                <li>08/2022 - 05/2026</li>
+                <li class="font-medium">Expected Graduation: May, 2026</li>
               </ul>
             </div>
 
             <div class="card">
-              <h3 class="font-bold">Relevant Computer Science Coursework</h3>
+              <h3 class="font-bold">Relevant Coursework</h3>
               <ul class="font-medium list-disc ml-5">
                 <li>Data Structures and Algorithms</li>
                 <li>Software Engineering</li>
@@ -144,9 +140,7 @@
             <div class="card">
               <h3 class="font-bold">Relevant Mathematics Coursework</h3>
               <ul class="font-medium list-disc ml-5">
-                <li>Calculus I - III</li>
                 <li>Linear Algebra</li>
-                <li>Discrete Mathematics</li>
                 <li>Probability and Statistics</li>
                 <li>Differential Equations</li>
                 <li>Graph Theory</li>
@@ -248,7 +242,7 @@
               <ul>
                 <li class="font-bold">IntelliTect</li>
                 <li class="font-medium">Software Developer Intern</li>
-                <li>04/2022 - 08/2024</li>
+                <li>04/2024 - 08/2024</li>
               </ul>
 
               <h3 class="mt-5">
@@ -365,7 +359,7 @@
         </section>
 
         <section>
-          <h2 class="section-title">ACCOLADES</h2>
+          <h2 class="section-title">AWARDS & INVOLVEMENT</h2>
           <hr class="mb-10" />
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div class="card">
@@ -394,22 +388,12 @@
         </section>
       </section>
 
-      <article class="article">
-        <div id="portfolio" class="text-center article-title">
-          <h1 class="sr-only">Portfolio</h1>
-          <div class="font-bold text-[11vw] md:text-[8vw]">
-            <span class="text-dark">
-              bschr
-              <span class="text-primary">:/portfolio$</span></span
-            >_
-          </div>
-        </div>
-
+      <article id="portfolio" class="article">
         <section>
           <h2 class="section-title">VIRTUAL PACKET TRACER</h2>
           <hr class="mb-10" />
-          <div class="grid grid-cols-1 md:grid-cols-5 gap-4">
-            <div class="card md:col-span-3">
+          <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+            <div class="card md:col-span-2">
               <h3 class="font-bold">About VPT</h3>
               <p class="font-medium">
                 Virtual Packet Tracer is a network simulation tool I began as an
@@ -461,6 +445,15 @@
             </div>
 
             <div class="card">
+              <img
+                src="assets/raylib.png"
+                alt="Raylib Logo"
+                class="mx-auto h-28"
+              />
+              <h3 class="skill-header">Rendered with Raylib</h3>
+            </div>
+
+            <div class="card">
               <span
                 class="iconify mx-auto"
                 data-icon="devicon:rust"
@@ -497,15 +490,6 @@
                 <h3 class="skill-header underline">View on GitHub</h3>
               </a>
             </div>
-
-            <video controls class="m-auto" preload="none">
-              <source src="assets/vpt-1.mov" type="video/quicktime" />
-              Your browser does not support the video tag.
-            </video>
-            <video controls class="m-auto" preload="none">
-              <source src="assets/vpt-2.mov" type="video/quicktime" />
-              Your browser does not support the video tag.
-            </video>
           </div>
         </section>
 
@@ -550,10 +534,6 @@
                   </li>
                 </ul>
               </div>
-            </div>
-
-            <div class="row-span-2">
-              <img src="assets/pushapp-1.png" alt="PushApp" />
             </div>
 
             <div class="card">
@@ -702,7 +682,7 @@
       </article>
     </main>
 
-    <footer class="mt-10 pb-10">
+    <footer class="mt-28 pb-20">
       <h1 class="text-3xl text-center font-medium">
         View over 30 personal project repositories on
         <a href="https://github.com/bens-schreiber/" class="underline">
