@@ -23,142 +23,124 @@
     <link href="/styles.css" rel="stylesheet" />
     <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
   </head>
-  <body class="mx-3 md:mx-12">
+  <body class="mx-3 sm:mx-12 md:mx-[13vw]">
     <header>
       <nav class="pt-6">
         <ul
-          class="flex gap-x-7 justify-center md:justify-end font-medium bg-background text-xl"
+          class="flex gap-x-5 items-center justify-center sm:justify-start font-medium text-xl"
         >
-          <li class="hidden md:inline md:mr-auto">
-            <a
-              href="https://github.com/bens-schreiber/bmin-schreib"
-              target="_blank"
-            >
-              Last updated: <time datetime="2025-03-26">03/26/2025</time>
-            </a>
-          </li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><span>|</span></li>
           <li><a href="/resume.pdf">Resume</a></li>
           <li><span>|</span></li>
           <li><a href="/vpt.html">VPT</a></li>
+          <span class="sm:w-full"></span>
+          <li class="hidden sm:block">
+            <ul class="mt-1 flex gap-x-3 items-center text-3xl">
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/benjamin-schreiber-a14aa219a/"
+                  target="_blank"
+                >
+                  <span
+                    class="iconify footer-icon"
+                    data-icon="logos:linkedin-icon"
+                    data-inline="false"
+                  ></span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/bens-schreiber" target="_blank">
+                  <span
+                    class="iconify footer-icon"
+                    data-icon="logos:github-icon"
+                    data-inline="false"
+                  ></span>
+                </a>
+              </li>
+              <li>
+                <a href="mailto:bpschreiber2003@gmail.com" target="_blank">
+                  <span
+                    class="iconify footer-icon text-4xl"
+                    data-icon="mdi:email"
+                    data-inline="false"
+                  ></span>
+                </a>
+              </li>
+            </ul>
+          </li>
         </ul>
       </nav>
-
-      <div class="my-10"></div>
-
-      <div class="text-center font-bold text-[11vw] md:text-[8vw]">
-        <h1 class="sr-only">Resume</h1>
-        <span class="text-dark">
-          bschr<span class="text-primary">:/resume$</span>
-        </span>
-        _
-      </div>
-
-      <div class="mt-3"></div>
-
-      <h3 class="sr-only">Social Media Links</h3>
-      <ul class="flex justify-center space-x-12">
-        <li>
-          <a
-            href="https://www.linkedin.com/in/benjamin-schreiber-a14aa219a/"
-            target="_blank"
-            class="flex items-center space-x-3"
-          >
-            <span
-              class="iconify footer-icon"
-              data-icon="logos:linkedin-icon"
-              data-inline="false"
-            ></span>
-            <span class="hidden md:inline text-xl">Benjamin Schreiber</span>
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://github.com/bens-schreiber"
-            target="_blank"
-            class="flex items-center space-x-3"
-          >
-            <span
-              class="iconify footer-icon"
-              data-icon="logos:github-icon"
-              data-inline="false"
-            ></span>
-            <span class="hidden md:inline text-xl">bens-schreiber</span>
-          </a>
-        </li>
-        <li>
-          <a
-            href="mailto:bpschreiber2003@gmail.com"
-            target="_blank"
-            class="flex items-center space-x-3"
-          >
-            <span
-              class="iconify footer-icon"
-              data-icon="mdi:email"
-              data-inline="false"
-            ></span>
-            <span class="hidden md:inline text-xl">
-              bpschreiber2003@gmail.com
-            </span>
-          </a>
-        </li>
-      </ul>
     </header>
 
-    <div class="my-20"></div>
+    <div class="my-3"></div>
 
-    <main class="flex flex-col gap-28">
-      <section class="article relative">
-        <section>
-          <h2 class="section-title">EDUCATION</h2>
-          <hr class="mb-10" />
-          <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="card xl:grid grid-cols-3">
-              <div class="col-span-1 xl:block md:hidden">
-                <img
-                  src="assets/wsu.svg"
-                  alt="Washington State University Logo"
-                  class="mx-auto h-28"
-                />
-              </div>
-              <div class="col-span-2">
-                <h3 class="font-bold">Washington State University</h3>
-                <ul class="list-disc ml-5">
-                  <li class="font-medium">B.S. in Computer Science</li>
-                  <li class="font-medium">Minor in Mathematics</li>
-                  <li class="font-medium">Expected Graduation: May, 2026</li>
-                </ul>
-              </div>
-            </div>
+    <main>
+      <article class="article relative">
+        <section
+          class="flex text-center justify-center sm:justify-start sm:text-start"
+        >
+          <div>
+            <h1 class="text-4xl md:text-5xl font-bold">Benjamin Schreiber</h1>
+            <h2 class="md:text-lg md:text-xl font-medium">
+              Washington State University - Computer Science, BS
+            </h2>
+            <h2 class="md:text-lg font-light">Graduating May 2026</h2>
 
-            <div class="card">
-              <h3 class="font-bold">Relevant Coursework</h3>
-              <ul class="font-medium list-disc ml-5">
-                <li>Software Engineering</li>
-                <li>Systems Programming</li>
-                <li>Database Management Systems</li>
-                <li>Parallel Programming</li>
-              </ul>
-            </div>
-
-            <div class="card">
-              <h3 class="font-bold">Relevant Mathematics Coursework</h3>
-              <ul class="font-medium list-disc ml-5">
-                <li>Linear Algebra</li>
-                <li>Probability and Statistics</li>
-                <li>Differential Equations</li>
-                <li>Graph Theory</li>
-              </ul>
-            </div>
+            <!-- Social Media -->
           </div>
         </section>
 
         <section>
+          <h2 class="section-title">EXPERIENCE</h2>
+          <hr class="mb-5" />
+
+          <ul class="p-1 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <li class="card">
+              <img
+                src="assets/cloudflare.svg"
+                alt="Cloudflare Logo"
+                class="mb-3 h-28"
+              />
+              <h3 class="font-semibold">Cloudflare</h3>
+              <ul>
+                <li>Software Engineer Intern</li>
+                <li class="font-light">05/2025 - 08/2025</li>
+              </ul>
+            </li>
+
+            <li class="card">
+              <img
+                src="assets/intellitect.svg"
+                alt="IntelliTect Logo"
+                class="mb-4 h-28"
+              />
+              <h3 class="font-semibold">IntelliTect</h3>
+              <ul>
+                <li>Software Developer Intern</li>
+                <li class="font-light">02/2024 - 08/2024</li>
+              </ul>
+            </li>
+            <li class="card">
+              <img
+                src="assets/intellitect.svg"
+                alt="IntelliTect Logo"
+                class="mb-4 h-28"
+              />
+              <h3 class="font-semibold">IntelliTect</h3>
+              <ul>
+                <li>Software Developer Intern</li>
+                <li class="font-light">06/2022 - 10/2023</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+
+        <section>
           <h2 class="section-title">SKILLS</h2>
-          <hr class="mb-10" />
-          <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
-            <div class="card">
+          <hr class="mb-5" />
+          <ul class="grid md:grid-cols-5 gap-8">
+            <li class="card">
               <span
                 class="iconify mx-auto"
                 data-icon="devicon:csharp"
@@ -171,9 +153,9 @@
                 <li>Entity Framework</li>
                 <li>XUnit, Moq</li>
               </ul>
-            </div>
+            </li>
 
-            <div class="card">
+            <li class="card">
               <span
                 class="iconify mx-auto"
                 data-icon="vscode-icons:file-type-typescript-official"
@@ -186,9 +168,9 @@
                 <li>WebRTC</li>
                 <li>Vite</li>
               </ul>
-            </div>
+            </li>
 
-            <div class="card">
+            <li class="card">
               <span
                 class="iconify mx-auto"
                 data-icon="vscode-icons:file-type-python"
@@ -201,9 +183,9 @@
                 <li>Pytest</li>
                 <li>Flask</li>
               </ul>
-            </div>
+            </li>
 
-            <div class="card">
+            <li class="card">
               <span
                 class="iconify mx-auto"
                 data-icon="vscode-icons:file-type-sql"
@@ -215,9 +197,9 @@
                 <li>SQL Server</li>
                 <li>PostgreSQL</li>
               </ul>
-            </div>
+            </li>
 
-            <div class="card">
+            <li class="card">
               <span
                 class="iconify mx-auto"
                 data-icon="vscode-icons:file-type-azure"
@@ -230,142 +212,13 @@
                 <li>SignalR</li>
                 <li>Blob Storage</li>
               </ul>
-            </div>
-          </div>
-        </section>
-
-        <section>
-          <h2 class="section-title">EXPERIENCE</h2>
-          <hr class="mb-10" />
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div class="card">
-              <img
-                src="assets/intellitect.svg"
-                alt="IntelliTect Logo"
-                class="mx-auto mb-3"
-              />
-              <ul>
-                <li class="font-bold">IntelliTect</li>
-                <li class="font-medium">Software Developer Intern</li>
-                <li>04/2024 - 08/2024</li>
-              </ul>
-
-              <h3 class="mt-5">
-                <span class="font-bold"> Audience Interactive Systems </span>
-                (<a
-                  class="underline text-blue-600"
-                  target="#blank"
-                  href="https://ais.team/"
-                  >https://ais.team/
-                </a>
-                )
-              </h3>
-              <ul class="font-medium list-disc ml-5 space-y-2">
-                <li>
-                  Engineered a dynamic real-time word cloud, achieving seamless
-                  interaction for thousands of concurrent users.
-                </li>
-                <li>
-                  Developed a concurrent voting system to synchronize end
-                  devices in real-time, utilizing concurrent queues in a
-                  repository pattern, enhancing user engagement and
-                  participation.
-                </li>
-                <li>
-                  Implemented an algorithm for proportional word sizing in
-                  constant time, optimizing display efficiency and user
-                  experience in data visualization.
-                </li>
-              </ul>
-
-              <h3 class="mt-5">
-                <span class="font-bold">
-                  Pesticide Information Center OnLine
-                </span>
-                (<a
-                  class="underline text-blue-600"
-                  target="#blank"
-                  href="https://picol.cahnrs.wsu.edu/"
-                >
-                  https://picol.cahnrs.wsu.edu/
-                </a>
-                )
-              </h3>
-              <ul class="font-medium list-disc ml-5 space-y-2">
-                <li>
-                  Recreated a decade-old SQL Server database, enhancing data
-                  integrity and access speed and removing redundancies,
-                  significantly improving query performance.
-                </li>
-                <li>
-                  Modernized an outdated ASP.NET implementation, eliminating
-                  antipatterns and deprecated techniques, which increased system
-                  reliability.
-                </li>
-                <li>
-                  Reengineered front end to mirror a contemporary search engine,
-                  implementing search query indexing with Lucene.NET, boosting
-                  user engagement and search efficiency
-                </li>
-              </ul>
-            </div>
-
-            <div class="card">
-              <img
-                src="assets/intellitect.svg"
-                alt="IntelliTect Logo"
-                class="mx-auto mb-3"
-              />
-              <ul>
-                <li class="font-bold">IntelliTect</li>
-                <li class="font-medium">Software Developer Intern</li>
-                <li>06/2022 - 10/2023</li>
-              </ul>
-
-              <h3 class="mt-5">
-                <span class="font-bold">1ON1 Piano</span>
-                (<a
-                  class="underline text-blue-600"
-                  target="#blank"
-                  href="https://1on1piano.com/"
-                  >https://1on1piano.com/
-                </a>
-                )
-              </h3>
-              <ul class="font-medium list-disc ml-5 space-y-2">
-                <li>
-                  Recreated and upgraded a Flutter mobile app to facilitate
-                  piano lessons via a WebRTC MIDI channel, eliminating ongoing
-                  issues and significantly improving the developer environment.
-                </li>
-                <li>
-                  Addressed WebRTC layer issues, reducing network related
-                  dropped calls by over 80%.
-                </li>
-                <li>
-                  Implemented a full stack user “File Sharing Library” with
-                  Azure Blob Storage, alongside a SignalR channel for real-time
-                  app updates, allowing teachers to share sheet music to
-                  students.
-                </li>
-                <li>
-                  Researched and integrated cutting-edge libraries Riverpod and
-                  GoRouter to modernize codebase and replace deprecated GetX
-                  stack.
-                </li>
-                <li>
-                  Attended biweekly standups and sprint planning meetings,
-                  contributing to the team’s agile development process, as well
-                  as leading project in client meetings.
-                </li>
-              </ul>
-            </div>
-          </div>
+            </li>
+          </ul>
         </section>
 
         <section>
           <h2 class="section-title">AWARDS & INVOLVEMENT</h2>
-          <hr class="mb-10" />
+          <hr class="mb-5" />
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div class="card">
               <img src="assets/fbla.png" alt="FBLA Logo" class="mx-auto h-64" />
@@ -391,13 +244,13 @@
             </div>
           </div>
         </section>
-      </section>
+      </article>
 
-      <article id="portfolio" class="article">
+      <article id="portfolio" class="article mt-8">
         <section>
           <h2 class="section-title">VIRTUAL PACKET TRACER</h2>
-          <hr class="mb-10" />
-          <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+          <hr class="mb-5" />
+          <div class="grid lg:grid-cols-4 gap-4">
             <div class="card md:col-span-2">
               <h3 class="font-bold">About VPT</h3>
               <p class="font-medium">
@@ -500,8 +353,8 @@
 
         <section>
           <h2 class="section-title">THE PUSHAPP</h2>
-          <hr class="mb-10" />
-          <div class="grid grid-cols-1 md:grid-cols-5 gap-4">
+          <hr class="mb-5" />
+          <div class="grid lg:grid-cols-5 gap-4">
             <div class="card md:col-span-3">
               <h3 class="font-bold">About PushApp</h3>
               <p class="font-medium">
@@ -600,8 +453,8 @@
 
         <section>
           <h2 class="section-title">GRAPH THEORIST SKETCHPAD</h2>
-          <hr class="mb-10" />
-          <div class="grid grid-cols-1 md:grid-cols-5 gap-4">
+          <hr class="mb-5" />
+          <div class="grid lg:grid-cols-5 gap-4">
             <div class="card md:col-span-3">
               <h3 class="font-bold">About Graph Theorist Sketchpad</h3>
               <p class="font-medium">
@@ -687,63 +540,45 @@
       </article>
     </main>
 
-    <footer class="mt-28 pb-20">
-      <h1 class="text-3xl text-center font-medium">
-        View over 30 personal project repositories on
-        <a href="https://github.com/bens-schreiber/" class="underline">
-          my GitHub
-        </a>
-      </h1>
-
-      <div class="my-5"></div>
-
-      <h3 class="sr-only">Social Media Links</h3>
-      <ul class="flex justify-center space-x-12">
-        <li>
-          <a
-            href="https://www.linkedin.com/in/benjamin-schreiber-a14aa219a/"
-            target="_blank"
-            class="flex items-center space-x-3"
-          >
-            <span
-              class="iconify footer-icon"
-              data-icon="logos:linkedin-icon"
-              data-inline="false"
-            ></span>
-            <span class="hidden md:inline text-xl">Benjamin Schreiber</span>
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://github.com/bens-schreiber"
-            target="_blank"
-            class="flex items-center space-x-3"
-          >
-            <span
-              class="iconify footer-icon"
-              data-icon="logos:github-icon"
-              data-inline="false"
-            ></span>
-            <span class="hidden md:inline text-xl">bens-schreiber</span>
-          </a>
-        </li>
-        <li>
-          <a
-            href="mailto:bpschreiber2003@gmail.com"
-            target="_blank"
-            class="flex items-center space-x-3"
-          >
-            <span
-              class="iconify footer-icon"
-              data-icon="mdi:email"
-              data-inline="false"
-            ></span>
-            <span class="hidden md:inline text-xl">
-              bpschreiber2003@gmail.com
-            </span>
-          </a>
-        </li>
-      </ul>
+    <footer class="mt-10 pb-5">
+      <hr />
+      <div class="flex items-center justify-between mt-3">
+        <p class="font-medium text-xl whitespace-nowrap">
+          <a href="https://bschr.dev">bschr.dev</a>
+        </p>
+        <ul class="flex gap-x-3 items-center justify-center text-3xl">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/benjamin-schreiber-a14aa219a/"
+              target="_blank"
+            >
+              <span
+                class="iconify footer-icon"
+                data-icon="logos:linkedin-icon"
+                data-inline="false"
+              ></span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/bens-schreiber" target="_blank">
+              <span
+                class="iconify footer-icon"
+                data-icon="logos:github-icon"
+                data-inline="false"
+              ></span>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:bpschreiber2003@gmail.com" target="_blank">
+              <span
+                class="iconify footer-icon text-4xl"
+                data-icon="mdi:email"
+                data-inline="false"
+              ></span>
+            </a>
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>

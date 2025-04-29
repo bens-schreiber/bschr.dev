@@ -7,29 +7,21 @@ body {
 }
 
 .card {
-    @apply shadow p-5;
+    @apply shadow p-3;
 }
 
 .article {
-    @apply flex flex-col space-y-28;
-}
-
-.article-title {
-    @apply -mb-16
+    @apply flex flex-col space-y-8;
 }
 
 .section-title {
-    @apply font-bold text-5xl text-center;
+    @apply font-bold text-4xl text-center sm:text-start;
 }
 
 .skill-header {
-   @apply font-bold text-xl text-center mt-5
+   @apply font-semibold text-lg text-center mt-1;
 }
 
 .skill-items {
-   @apply font-medium text-xl text-center
-}
-
-.footer-icon {
-    @apply text-4xl
+   @apply text-lg text-center;
 }
