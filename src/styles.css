@@ -25,3 +25,7 @@ body {
 .skill-items {
    @apply text-lg text-center;
 }
+
+.hidden-mobile {
+    @apply hidden sm:block;
+}
