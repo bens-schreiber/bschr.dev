@@ -6,24 +6,12 @@ body {
     @apply text-text bg-background;
 }
 
-.card {
-    @apply shadow p-3;
-}
-
 .article {
     @apply flex flex-col space-y-8;
 }
 
 .section-title {
     @apply font-bold text-4xl text-center sm:text-start;
-}
-
-.skill-header {
-   @apply font-semibold text-lg text-center mt-1;
-}
-
-.skill-items {
-   @apply text-lg text-center;
 }
 
 .hidden-mobile {

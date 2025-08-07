@@ -6,7 +6,7 @@ module.exports = {
     extend: {
       colors: {
         background: "#fafafa",
-        primary: "#1F70B9", // just gonna borrow this @intellitect... it's a good blue!
+        accent: "#f6f6f6;",
         text: {
           DEFAULT: "#2d3441",
         },
