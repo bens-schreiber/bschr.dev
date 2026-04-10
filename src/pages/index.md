@@ -8,6 +8,8 @@ description: "Resume and portfolio website for Benjamin Schreiber"
       <li><a href="/resume.pdf">Resume</a></li>
       <li><span>|</span></li>
       <li><a href="/vpt.html">VPT</a></li>
+      <li><span>|</span></li>
+      <li><a href="#the-cloesce-schema-language">Cloesce</a></li>
     </ul>
   </nav>
 </header>
@@ -29,7 +31,7 @@ Graduating May 2026
 
 In August, after graduating in May, I'll be starting as a **Systems Engineer at Cloudflare**, where I'll be working on the infrastructure side of the [R2 Object Storage](https://www.cloudflare.com/developer-platform/products/r2/) platform. 
 
-I spend most of my free time working on the [Cloesce Compiler](https://cloesce.pages.dev) (a passion project that also happens to be my senior capstone) and working as a Teaching Assistant for introductory programming courses at WSU. I stay involved on campus as a member of the Triangle Fraternity.
+I spend most of my free time working on the [Cloesce Schema Language](https://cloesce.pages.dev) (a passion project that also happens to be my senior capstone) and working as a Teaching Assistant for an introductory programming course at WSU. I stay involved on campus as a member of the Triangle Fraternity.
 
 ---
 
@@ -63,7 +65,7 @@ In my free time, I regularly develop with:
 - Python
 - PostgreSQL
 - RayLib, RayGUI
-- [Cloesce, my very own web framework](https://cloesce.pages.dev)
+- [Cloesce](https://cloesce.pages.dev)
 
 
 My proudest project is the **Triangle Fraternity at Washington State University**, a fraternity for STEM majors which I founded in 2022. Since then, we have accomplished so much in such a short amount of time, including:
@@ -77,15 +79,17 @@ Most significant of all, Triangle aquired a chapter house for the 2026-2027 scho
 
 ---
 
-## The Cloesce Compiler
+## The Cloesce Schema Language
 
-*The Cloesce Compiler* converts object definitions in high level languages to a full stack project, hosted on Cloudflare.
+*Cloesce* is a web framework and schema language for building full stack web applications. It unites common schemas used in web development such as Infrastructure-as-Code, Object Relational Mapping, RPC-style backend and client stubs, and runtime validation into a single cohesive language. Write your schema, compile, and you get a full stack web app deployed in one command.
+
+It's all built on top of Cloudflare Workers, and provides a novel ORM for not just SQL databases, but also Cloudflare KV and R2.
 
 While interning at Cloudflare, I had noticed many of the engineers spent time on hobby projects to improve the developer experience of Cloudflare's products. Cloesce is my take on what development for Cloudflare can look like.
 
 Cloesce is essentially a cumulative summary of all of the knowledge and patterns I have gained from my experience working with both IntelliTect and Cloudflare. The project is highly ambitious, and I am incredibly proud of the progress I have made so far in the release of the first alpha.
 
-Check out the [official documentation](https://cloesce.pages.dev) to see what it is all about, and if you're interested in contributing, check out the GitHub repository!
+Check out the [official documentation](https://cloesce.pages.dev) to see what it is all about.
 
 
 ---
