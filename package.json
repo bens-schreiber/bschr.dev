@@ -1,5 +1,5 @@
 {
-  "name": "bmin-schreib",
+  "name": "bschrdev",
   "version": "1.0.0",
   "scripts": {
     "dev": "astro dev",
@@ -9,9 +9,5 @@
   },
   "dependencies": {
     "astro": "^5.17.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bens-schreiber/bschr.dev.git"
   }
 }

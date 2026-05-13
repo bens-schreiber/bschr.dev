@@ -5,8 +5,6 @@ description: "Resume and portfolio website for Benjamin Schreiber"
 <header>
   <nav>
     <ul>
-      <li><a href="/resume.pdf">Resume</a></li>
-      <li><span>|</span></li>
       <li><a href="/vpt.html">VPT</a></li>
       <li><span>|</span></li>
       <li><a href="#the-cloesce-schema-language">Cloesce</a></li>
@@ -17,7 +15,6 @@ description: "Resume and portfolio website for Benjamin Schreiber"
 # Benjamin Schreiber
 
 **B.S. Computer Science | Washington State University**  
-Graduating May 2026
 
 <div style="display: flex; gap: 1.25rem; flex-wrap: wrap; margin: 0.5rem 0; font-size: 0.95rem;">
   <a href="https://www.linkedin.com/in/benjamin-schreiber-a14aa219a/">LinkedIn</a>
@@ -29,9 +26,9 @@ Graduating May 2026
 
 ## Now
 
-In August, after graduating in May, I'll be starting as a **Systems Engineer at Cloudflare**, where I'll be working on the infrastructure side of the [R2 Object Storage](https://www.cloudflare.com/developer-platform/products/r2/) platform. 
+I'll be starting as a **Systems Engineer at Cloudflare** in August, where I'll be working on the infrastructure side of the [R2 Object Storage](https://www.cloudflare.com/developer-platform/products/r2/) platform.
 
-I spend most of my free time working on the [Cloesce Schema Language](https://cloesce.pages.dev) (a passion project that also happens to be my senior capstone) and working as a Teaching Assistant for an introductory programming course at WSU. I stay involved on campus as a member of the Triangle Fraternity.
+I spend most of my free time working on the [Cloesce Schema Language](https://cloesce.pages.dev), a project that began as my senior capstone at WSU and has since evolved into a passion project. I hope to achieve full Durable Object and Web Socket support before I start at Cloudflare, and I'm excited to see where the project goes from there.
 
 ---
 
@@ -39,23 +36,23 @@ I spend most of my free time working on the [Cloesce Schema Language](https://cl
 
 | | |
 |---|---|
-| **Systems Engineer \| Cloudflare \| Austin, Texas** | 08/2026 - *forseeable future* |
-| **Software Engineer Intern \| Cloudflare \| Austin, Texas** | 05/2025 - 08/2025 |
-| **Software Developer Intern \| IntelliTect \| Spokane, Washington** | 02/2024 - 08/2024 | 06/2022 - 10/2023 |
+| **Systems Engineer \| Cloudflare** | 08/2026 - *forseeable future* |
+| **Software Engineer Intern \| Cloudflare** | 05/2025 - 08/2025 |
+| **Software Developer Intern \| IntelliTect** | 06/2022 - 08/2024 |
 
 
 As a Systems Engineer, I have experience working with:
 
-- Rust (Tokio, Axum)
+- Rust
 - C (eBPF)
 - CockroachDB
 - Grafana
-- ClickHouse
+- Clickhouse
 
 For full stack development, I have experience working with:
 
-- TypeScript (Vue, React)
-- C# (Entity Framework, ASP.NET, Coalesce, xUnit, Moq)
+- TypeScript (Vue)
+- C# (Entity Framework, ASP.NET)
 - Dart (Flutter, Riverpod)
 - Azure
 - SQL Server
@@ -63,34 +60,19 @@ For full stack development, I have experience working with:
 In my free time, I regularly develop with:
 
 - Python
-- PostgreSQL
-- RayLib, RayGUI
+- Raylib
 - [Cloesce](https://cloesce.pages.dev)
-
-
-My proudest project is the **Triangle Fraternity at Washington State University**, a fraternity for STEM majors which I founded in 2022. Since then, we have accomplished so much in such a short amount of time, including:
-- Growing from just 7 members to 60+
-- Achieved the highest average GPA three semesters in a row
-- Awarded the prestigious "Top Chapter" award in 2025 from the Interfraternity Council
-- Recognized nationally by the Triangle Fraternity Headquarters as the "Chapter of the Year"
-- Maintained over 50% of our members working summer internships in industry
-
-Most significant of all, Triangle aquired a chapter house for the 2026-2027 school year, a huge milestone for the fraternity and a testament to the hard work of all of our members. I'm excited to see what the future holds for Triangle, and I'm eager to support the next generation as an alumnus.
+- Cloudflare
 
 ---
 
 ## The Cloesce Schema Language
 
-*Cloesce* is a web framework and schema language for building full stack web applications. It unites common schemas used in web development such as Infrastructure-as-Code, Object Relational Mapping, RPC-style backend and client stubs, and runtime validation into a single cohesive language. Write your schema, compile, and you get a full stack web app deployed in one command.
+*Cloesce* is a schema language for building full stack web applications hosted on Cloudflare. It unites common schemas used in web development such as Infrastructure-as-Code, Object Relational Mapping, RPC-style backend and client stubs, and runtime validation into a single cohesive language. Write your schema, compile, and you get a full stack web app deployed in one command.
 
-It's all built on top of Cloudflare Workers, and provides a novel ORM for not just SQL databases, but also Cloudflare KV and R2.
-
-While interning at Cloudflare, I had noticed many of the engineers spent time on hobby projects to improve the developer experience of Cloudflare's products. Cloesce is my take on what development for Cloudflare can look like.
-
-Cloesce is essentially a cumulative summary of all of the knowledge and patterns I have gained from my experience working with both IntelliTect and Cloudflare. The project is highly ambitious, and I am incredibly proud of the progress I have made so far in the release of the first alpha.
+Cloesce was created as my senior capstone project at Washington State University after I pitched the abstract idea to Cloudflare, who agreed to sponsor the project and provide mentorship. In April of 2026, Cloesce won first in the WSU Voiland College of Engineering Senior Design Poster Competition, and helped me in being honored as the VCEA Outstanding Senior of the Year in Computer Science.
 
 Check out the [official documentation](https://cloesce.pages.dev) to see what it is all about.
-
 
 ---
 
@@ -116,6 +98,19 @@ Currently, Virtual Packet Tracer is capable of simulating:
 VPT was created using Rust, utilizing the built in Rust test suite for test driven development. The project is split into two parts, the first being the networking components completely made from scratch, and the second being the graphical interface which uses both RayLib and RayGUI.
 
 You can view a WASM compiled version of the program [here](/vpt.html).
+
+---
+
+## Triangle Fraternity at WSU
+
+My proudest project is the **Triangle Fraternity at Washington State University**, a fraternity for STEM majors which I founded in 2022. In just a few short years (2022-2026), Triangle has achieved:
+- Growing from just 7 members to 60+
+- Achieved the highest average GPA three semesters in a row
+- Awarded the prestigious "Top Chapter" award in 2025 from the Interfraternity Council
+- Recognized nationally by the Triangle Fraternity Headquarters as the "Chapter of the Year"
+- Maintained over 50% of our members working summer internships in industry
+
+Most significant of all, Triangle aquired a chapter house for the 2026-2027 school year, a huge milestone for the fraternity and a testament to the hard work of all of our members. I'm excited to see what the future holds for Triangle, and I'm eager to support the next generation as an alumnus.
 
 ---
 
