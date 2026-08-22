@@ -26,9 +26,11 @@ description: "Resume and portfolio website for Benjamin Schreiber"
 
 ## Now
 
-I'll be starting as a **Systems Engineer at Cloudflare** in August, where I'll be working on the infrastructure side of the [R2 Object Storage](https://www.cloudflare.com/developer-platform/products/r2/) platform.
+I started as a **Systems Engineer at Cloudflare** on August 3rd, where I work on the infrastructure side of [R2](https://www.cloudflare.com/developer-platform/products/r2/), Cloudflares S3-compatible Object Storage platform.
 
-I spend most of my free time working on the [Cloesce Schema Language](https://cloesce.pages.dev), a project that began as my senior capstone at WSU and has since evolved into a passion project. I hope to achieve full Durable Object and Web Socket support before I start at Cloudflare, and I'm excited to see where the project goes from there.
+Most of my time is spent learning the ins and outs of R2, and researching the wide world of distributed object storage.
+
+I recently launched a new project in my free time called [Horse Holder](https://horseholder.com), a free (or self hostable) API to ensure that you don't exceed your cloud provider's usage limits and get charged for overages. While it is fully working and you can claim a free API key, I'll probably be making breaking changes to the API as I continue to develop it.
 
 ---
 
